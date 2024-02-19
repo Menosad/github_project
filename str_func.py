@@ -1,5 +1,8 @@
-
 def capitalize_string(value):
-    '''Корректирование строки, все слова с заглавной буквы'''
+    """Все слова с большой буквы"""
     return value.title()
 
+
+def all_upper(value):
+    """Все буквы заглавные"""
+    return value.upper()
